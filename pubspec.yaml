@@ -1,0 +1,33 @@
+name: donix
+description: A blood donation app for Nigeria
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'  # Updated for Dart 3.x support
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2  # For internationalization and date formatting
+  cupertino_icons: ^1.0.6  # iOS-style icons
+  shared_preferences: ^2.2.2  # Local storage for user preferences
+  flutter_local_notifications: ^18.0.1  # For scheduling blood donation reminders
+  flutter_staggered_animations: ^1.1.1  # For smooth animations in the UI
+  google_maps_flutter: ^2.5.0  # To display blood donation centers on maps
+  fl_chart: ^0.66.2  # For displaying statistics and analytics
+  provider: 6.1.2  # State management
+  google_fonts: ^6.2.1  # Custom fonts from Google
+  flutter_animate: ^4.5.0  # For enhanced UI animations
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Code linting for best practices
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
